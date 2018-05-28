@@ -1,6 +1,6 @@
 # irohaboardへユーザとグループの流し込み
 
-## リスト作成 ( create_list.pl )
+## リスト作成
 以下のようなcsv作成（loginid , group name , user name）
 
 Ex) listfile.txt
