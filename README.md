@@ -18,7 +18,6 @@ user3 , group2 , name3
 ## SQL ファイル作成
 ```
 # ./outsql.pl
-
 ```
 
 * userinput.sql
