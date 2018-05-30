@@ -8,7 +8,6 @@ Ex) listfile.txt
 user1 , group1 , name1
 user2 , group1 , name2
 user3 , group2 , name3
-
 ```
 
 ```
@@ -17,7 +16,7 @@ user3 , group2 , name3
 
 ## SQL ファイル作成
 ```
-# ./outsql.pl
+# ./outsql.pl listfile.txt
 ```
 
 * userinput.sql

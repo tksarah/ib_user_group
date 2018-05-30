@@ -3,13 +3,13 @@
 # You shuold check user id , group id and default course before runing this script
 #
 # Initialize
+my $file = $ARGV[0];
 my $pw = "5dc6faaf498f5a3d2d0b82002cd9966b8c3df570"; # "password"
 my $wfile="userinput.sql";
 my $cnt = 10;
 
-
 open(W,">./$wfile");
-	open(R,"<./listfile.txt");
+	open(R,"<./$file");
 	while(<R>){
 		my @list = split(/,/,$_);
 		chomp($list[2]);
